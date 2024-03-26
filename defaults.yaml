@@ -1,0 +1,417 @@
+all:
+  - animation-delay: 0s
+  - animation-duration: 0s
+  - animation-iteration-count: 1
+  - animation-play-state: running
+  - animation-timing-function: ease
+  - autofocus: false 
+  - backface-visibility: visible
+  - background-attachment: scroll
+  - background-clip: border-box
+  - background-color: rgba(0, 0, 0, 0)
+  - background-origin: padding-box
+  - background-position: 0% 0%
+  - background-repeat: repeat
+  - border-collapse: separate
+  - border-image-outset: 0
+  - border-image-repeat: stretch
+  - border-image-slice: 100%
+  - box-decoration-break: slice
+  - box-sizing: content-box
+  - caption-side: top
+  - column-fill: balance
+  - covered: false
+  - direction: ltr
+  - disabled: false
+  - display: block
+  - empty-cells: show
+  - flex-direction: row
+  - flex-grow: 0
+  - flex-shrink: 1
+  - flex-wrap: nowrap
+  - font-family: Times New Roman
+  - font-size: 16px
+  - font-stretch: 100%
+  - font-weight: 400
+  - grid-auto-flow: row
+  - hyphens: manual
+  - list-style-position: outside
+  - list-style-type: disc
+  - object-fit: fill
+  - object-position: 50% 50%
+  - opacity: 1
+  - order: 0
+  - overflow-x: visible
+  - overflow-y: visible
+  - perspective-origin: 50% 50%
+  - position: static
+  - tab-size: 8
+  - tabindex: -1
+  - text-align: start
+  - text-decoration-style: solid
+  - text-overflow: clip
+  - transform-origin: 50% 50% 0
+  - transform-style: flat
+  - transition-delay: 0s
+  - transition-duration: 0s
+  - transition-property: all
+  - transition-timing-function: ease
+  - vertical-align: baseline
+  - visibility: visible
+
+a:
+  - border-image-width: 1
+  - border-color: rgb(0, 0, 238)
+  - border-bottom-color: rgb(0, 0, 238)
+  - border-left-color: rgb(0, 0, 238)
+  - border-right-color: rgb(0, 0, 238)
+  - border-top-color: rgb(0, 0, 238)
+  - caret-color: rgb(0, 0, 238)
+  - column-rule-color: rgb(0, 0, 238)
+  - outline-color: rgb(0, 0, 238)
+  - text-decoration-color: rgb(0, 0, 238)
+  - color: rgb(0, 0, 238)
+  - display: inline
+  - tabindex: 0
+  - text-decoration: underline
+  - text-decoration-line: underline
+
+address:
+  - display: block
+  - font-style: italic
+
+area:
+  - display: none
+
+b:
+  - font-weight: 700
+  - display: inline
+
+bdo:
+  - unicode-bidi: bidi-override
+
+blockquote:
+  - margin-bottom: 1em
+  - margin-left: 40px
+  - margin-right: 40px
+  - margin-top: 1em
+
+body:
+  - border-image-width: 1
+  - margin-bottom: 8px
+  - margin-left: 8px
+  - margin-right: 8px
+  - margin-top: 8px
+
+br:
+  - border-image-width: 1
+  - display: inline
+  
+button:
+  - tabindex: 0
+  - read-only: false
+
+caption:
+  - display: table-caption
+  - text-align: center
+
+cite:
+  - font-style: italic
+
+code:
+  - font-family: monospace
+
+col:
+  - display: table-column
+
+colgroup:
+  - display: table-column-group
+
+datalist:
+  - display: none
+
+dd:
+  - margin-left: 40px
+
+del:
+  - text-decoration: line-through
+
+dfn:
+  - font-style: italic
+
+div:
+  - border-image-width: 1
+
+dl:
+  - margin-bottom: 1em
+  - margin-left: 0px
+  - margin-right: 0px
+  - margin-top: 1em
+
+em:
+  - border-image-width: 1
+  - display: inline
+  - font-style: italic
+
+fieldset:
+  - border: 2px groove
+  - margin-left: 2px
+  - margin-right: 2px
+  - padding-bottom: 0.625em
+  - padding-left: 0.75em
+  - padding-right: 0.75em
+  - padding-top: 0.35em
+
+figure:
+  - margin-bottom: 1em
+  - margin-left: 40px
+  - margin-right: 40px
+  - margin-top: 1em
+
+form:
+  - border-image-width: 1
+  - margin-bottom: 16px
+
+h1:
+  - border-image-width: 1
+  - font-size: 32px
+  - font-weight: 700
+  - margin-bottom: 21.44px
+  - margin-top: 21.44px
+
+h2:
+  - font-size: 1.5em
+  - font-weight: bold
+  - margin-bottom: 0.83em
+  - margin-top: 0.83em
+
+h3:
+  - font-size: 1.17em
+  - font-weight: bold
+  - margin-bottom: 1em
+  - margin-top: 1em
+
+h4:
+  - font-weight: bold
+  - margin-bottom: 1.33em
+  - margin-top: 1.33em
+
+h5:
+  - font-size: .83em
+  - font-weight: bold
+  - margin-bottom: 1.67em
+  - margin-top: 1.67em
+
+h6:
+  - font-size: .67em
+  - font-weight: bold
+  - margin-bottom: 2.33em
+  - margin-top: 2.33em
+
+head:
+  - border-image-width: 1
+  - display: none
+
+hr:
+  - border-style: inset
+  - border-width: 1px
+  - margin-bottom: 0.5em
+  - margin-left: auto
+  - margin-right: auto
+  - margin-top: 0.5em
+
+html:
+  - border-image-width: 1
+
+i:
+  - font-style: italic
+  
+iframe:
+  - tabindex: 0
+
+input:
+  - border-image-width: 1
+  - box-sizing: border-box
+  - checked: false
+  - display: inline-block
+  - margin-bottom: 3px
+  - margin-top: 3px
+  - tabindex: 0  
+  - read-only: false
+
+img:
+  - border-image-width: 1
+  - display: inline
+
+ins:
+  - text-decoration: underline
+
+kbd:
+  - font-family: monospace
+
+label:
+  - border-image-width: 1
+  - cursor: default
+  - display: inline
+
+legend:
+  - padding-left: 2px
+  - padding-right: 2px
+
+li:
+  - display: list-item
+  - value: 0
+
+link:
+  - display: none
+
+map:
+  - display: inline
+
+mark:
+  - background-color: yellow
+  - color: black
+
+menu:
+  - list-style-type: disc
+  - margin-bottom: 1em
+  - margin-top: 1em
+  - padding-left: 40px
+
+ol:
+  - list-style-type: decimal
+  - margin-bottom: 1em
+  - margin-top: 1em
+  - padding-left: 40px
+
+output:
+  - display: inline
+
+p:
+  - border-image-width: 1
+  - margin-bottom: 16px
+  - margin-top: 16px
+
+param:
+  - display: none
+
+pre:
+  - border-image-width: 1
+  - font-family: monospace
+  - font-size: 13px
+  - margin-bottom: 13px
+  - margin-top: 13px
+  - white-space: pre
+
+q:
+  - display: inline
+
+rt:
+  - line-height: normal
+
+s:
+  - text-decoration: line-through
+
+samp:
+  - font-family: monospace
+
+script:
+  - border-image-width: 1
+  - display: none
+
+select:
+  - tabindex: 0
+
+small:
+  - font-size: smaller
+
+span:
+  - border-image-width: 1
+  - display: inline
+
+strike:
+  - text-decoration: line-through
+
+strong:
+  - font-weight: bold
+
+style:
+  - display: none
+
+sub:
+  - font-size: smaller
+  - vertical-align: sub
+
+sup:
+  - font-size: smaller
+  - vertical-align: super
+
+table:
+  - border-collapse: separate
+  - border-bottom-color: rgb(128, 128, 128)
+  - border-left-color: rgb(128, 128, 128)
+  - border-right-color: rgb(128, 128, 128)
+  - border-top-color: rgb(128, 128, 128)
+  - border-image-width: 1
+  - border-spacing: 2px 2px
+  - display: table
+
+tbody:
+  - border-bottom-color: rgb(128, 128, 128)
+  - border-left-color: rgb(128, 128, 128)
+  - border-right-color: rgb(128, 128, 128)
+  - border-top-color: rgb(128, 128, 128)
+  - border-image-width: 1
+  - border-spacing: 2px 2px
+  - display: table-row-group
+  - vertical-align: middle
+
+td:
+  - border-image-width: 1
+  - border-spacing: 2px 2px
+  - display: table-cell
+  - vertical-align: inherit
+  
+textarea:
+  - tabindex: 0
+  - read-only: false
+
+tfoot:
+  - display: table-footer-group
+  - vertical-align: middle
+
+th:
+  - display: table-cell
+  - font-weight: bold
+  - text-align: center
+  - vertical-align: inherit
+
+thead:
+  - display: table-header-group
+  - vertical-align: middle
+
+title:
+  - border-image-width: 1
+  - display: none
+
+tr:
+  - border-bottom-color: rgb(128, 128, 128)
+  - border-left-color: rgb(128, 128, 128)
+  - border-right-color: rgb(128, 128, 128)
+  - border-top-color: rgb(128, 128, 128)
+  - border-image-width: 1
+  - border-spacing: 2px 2px
+  - display: table-row
+  - vertical-align: middle
+
+u:
+  - text-decoration: underline
+
+ul:
+  - list-style-type: disc
+  - margin-bottom: 1em
+  - margin-top: 1em
+  - padding-left: 40px
+
+var:
+  - font-style: italic

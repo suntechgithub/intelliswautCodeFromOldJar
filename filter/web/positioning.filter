@@ -1,0 +1,39 @@
+# Positioning filter file for recheck.
+
+# Ignore attributes that are concerned with positioning:
+
+attribute=top
+attribute=bottom
+attribute=right
+attribute=left
+
+attribute=width
+attribute=height
+attribute=min-width
+attribute=min-height
+attribute=max-width
+attribute=max-height
+
+attribute=vertical-align
+
+attribute=clip
+
+attribute=margin-top
+attribute=margin-right
+attribute=margin-bottom
+attribute=margin-left
+
+attribute=object-position
+attribute=outline
+attribute=absolute-outline
+attribute=position
+
+attribute=padding-top
+attribute=padding-right
+attribute=padding-bottom
+attribute=padding-left
+
+attribute=z-index
+
+matcher: type=br, change=inserted
+matcher: type=br, change=deleted
